@@ -1,0 +1,913 @@
+@import url("https://fonts.googleapis.com/css2?family=Single+Day&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+.barra-superior-govco {
+  background-color: #3366cc;
+}
+.barra-superior-govco img {
+  width: 100px;
+  margin-left: 2rem;
+}
+
+@font-face {
+  font-family: "govco-fontv2";
+  src: url("../fonts/govco/govco-font-icons.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+p {
+  line-height: 1.5 !important;
+}
+
+.row > * {
+  padding-left: 0 !important;
+  margin-left: unset !important;
+}
+
+.row {
+  margin-left: 0 !important;
+}
+
+.row.col-xs-12.col-lg-7.govco-texto-sedes,
+.row.col-xs-12.col-lg-7.govco-network {
+  padding-left: 0 !important;
+  width: 100% !important;
+}
+
+[class^=govco-]:before,
+[class*=" govco-"]:before {
+  font-family: "govco-fontv2";
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: 0.2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.govco-twitter-square:before {
+  content: "\ee16";
+}
+
+.govco-twitter:before {
+  content: "\ee17";
+}
+
+.govco-instagram-square:before {
+  content: "\ed5b";
+}
+
+.govco-instagram:before {
+  content: "\ed5c";
+}
+
+.govco-facebook-f:before {
+  content: "\ed0e";
+}
+
+.govco-facebook-messenger:before {
+  content: "\ed0f";
+}
+
+.govco-facebook-square:before {
+  content: "\ed10";
+}
+
+.govco-facebook:before {
+  content: "\ed11";
+}
+
+.govco-phone:before {
+  content: "\ea8a";
+}
+
+.govco-phone-alt:before {
+  content: "\ea85";
+}
+
+/*** FUENTE ICONOS ***/
+/*** MODAL 1 ***/
+.govco-logo-entidad {
+  height: 64px;
+  display: inline-block;
+  content: url(https://cdn.www.gov.co/v4/assets/images/Entidad.svg);
+}
+
+.govco-co {
+  height: 48px;
+  margin-top: 24px;
+  display: inline-block;
+  content: url(https://cdn.www.gov.co/v4/assets/images/logo-colombia.svg);
+}
+
+.govco-separator {
+  border-left: 1px solid #e5eefb;
+  opacity: 1px;
+  height: 44px;
+  margin-left: 10px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.govco-logo {
+  height: 30px;
+  display: inline-block;
+  content: url(https://cdn.www.gov.co/v4/assets/images/logo.svg);
+  vertical-align: super;
+}
+
+.govco-footer-logo {
+  height: 96px;
+  background-color: #3366cc;
+  width: 100%;
+  margin-top: 20px !important;
+}
+
+.govco-data-front {
+  width: calc(100% - 40px);
+  margin-left: 20px !important;
+  box-shadow: 50px 30px 0px -30px #3d8832, -50px 30px 0px -30px #3d8832, 0px 20px 0px 0px #3d8832, 50px 50px 0px -30px #3d8832, -50px 50px 0px -30px #3d8832;
+  top: 0;
+  border: 2px solid #e5eefb;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.govco-text-header-1 {
+  color: #3366cc;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.govco-text-header-2 {
+  color: #3366cc;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0 !important;
+}
+
+.govco-text-header-3 {
+  color: #3366cc;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 0 !important;
+}
+
+.govco-logo-container {
+  margin-left: 80px !important;
+}
+
+.govco-link-modal {
+  color: #3366cc;
+  margin-right: 30px !important;
+  text-decoration: underline;
+}
+
+.icon::before {
+  margin: 0 !important;
+  padding: 0 !important;
+  transform: scale(1.5, 1.5);
+  margin-right: 10px !important;
+  margin-left: 5px !important;
+  vertical-align: text-top !important;
+  color: #3366cc;
+}
+
+.govco-iconContainer {
+  display: inline-block !important;
+  width: auto !important;
+}
+
+.govco-links-container {
+  margin-bottom: 50px !important;
+  margin-top: 30px !important;
+}
+
+.govco-footer-text {
+  margin-top: 50px !important;
+  margin-left: 80px !important;
+}
+
+.govco-texto-sedes,
+.govco-network {
+  padding: unset !important;
+}
+
+.govco-network,
+.govco-listado-sedes {
+  margin-top: 30px !important;
+}
+
+.govco-sedes {
+  margin-top: 20px !important;
+}
+
+.govco-logo-div-a {
+  text-align: center !important;
+}
+
+.govco-links-directorio {
+  margin-top: 20px !important;
+}
+
+.govco-link-container {
+  display: inline-block;
+  width: auto !important;
+}
+
+.govco-mostrar {
+  display: none !important;
+}
+
+.govco-nombre-entidad {
+  margin-bottom: 0px !important;
+}
+
+@media (max-width: 991px) {
+  .govco-sedes {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 5px !important;
+  }
+  .govco-sede-info {
+    margin-left: 0 !important;
+  }
+  .govco-text-header-1 {
+    margin-left: 15px !important;
+  }
+  .govco-logo-entidad {
+    height: 65px;
+  }
+  .govco-footer-text {
+    margin: 0 !important;
+    margin-top: 50px !important;
+  }
+  .govco-nombre-entidad {
+    margin-left: 0px !important;
+    width: 100% !important;
+  }
+  .govco-logo-div-a {
+    margin-left: 0 !important;
+  }
+  .govco-texto-sedes,
+  .govco-links-directorio,
+  .govco-listado-sedes,
+  .govco-links-container {
+    margin-left: 15px !important;
+    margin-top: 20px !important;
+  }
+  .govco-texto-sedes,
+  .govco-network {
+    padding: unset !important;
+  }
+  .govco-iconContainer {
+    margin-top: 20px !important;
+    display: block !important;
+    width: 100% !important;
+  }
+  .govco-network {
+    margin-left: 15px !important;
+    margin-top: 10px !important;
+  }
+  .govco-text-header-3 {
+    margin-top: 20px !important;
+  }
+  .govco-link-container {
+    display: block !important;
+    width: 100% !important;
+  }
+  .govco-mostrar {
+    display: unset !important;
+  }
+  .govco-logo-container {
+    text-align: center !important;
+    margin-left: unset !important;
+  }
+  .govco-texto-sedes {
+    padding-right: 20px !important;
+  }
+}
+.govco-footer {
+  margin-top: 30px;
+}
+
+.site-title {
+  display: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.logo-home {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.video-home {
+  width: 100%;
+  background-color: #3C8832;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video-home .view-content {
+  display: flex;
+  width: 80%;
+}
+.video-home .view-content .views-row {
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.video-home .view-content .views-row .views-field-body .field-content p {
+  font-family: "Single Day", cursive;
+}
+
+.menu-perfiles {
+  margin-top: 50px;
+  justify-content: center;
+  display: flex;
+}
+.menu-perfiles .view-content {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.menu-perfiles .view-content .views-row {
+  width: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 700;
+  justify-content: center;
+  cursor: pointer;
+}
+.menu-perfiles .view-content .views-row a {
+  display: block;
+  width: 100%;
+}
+.menu-perfiles .view-content .views-row:hover {
+  box-shadow: 10px 10px 10px -4px rgb(110, 110, 110);
+}
+.menu-perfiles .view-content .views-row:nth-child(1) {
+  background: #7A5F21;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.menu-perfiles .view-content .views-row:nth-child(1):before {
+  content: "";
+  background-image: url(../img/ico-profe.png);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  margin-right: 30px;
+}
+.menu-perfiles .view-content .views-row:nth-child(1) a {
+  color: white;
+  text-decoration: none;
+}
+.menu-perfiles .view-content .views-row:nth-child(2) {
+  background: #F6BF42;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.menu-perfiles .view-content .views-row:nth-child(2):before {
+  content: "";
+  background-image: url(../img/ico-padre.png);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  margin-right: 30px;
+}
+.menu-perfiles .view-content .views-row:nth-child(2) a {
+  color: black;
+  text-decoration: none;
+}
+.menu-perfiles .view-content .views-row:nth-child(3) {
+  background: #2A65B0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.menu-perfiles .view-content .views-row:nth-child(3):before {
+  content: "";
+  background-image: url(../img/ico-estu.png);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  margin-right: 30px;
+}
+.menu-perfiles .view-content .views-row:nth-child(3) a {
+  color: white;
+  text-decoration: none;
+}
+.menu-perfiles .view-content .views-row .views-field-name {
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+.menu-perfiles .view-content .views-row .views-field-name .field-content {
+  display: block;
+}
+
+.region-content {
+  padding: 0;
+}
+
+.vocabulary-publico-objetivo {
+  width: 100%;
+}
+.vocabulary-publico-objetivo .field--name-field-banner {
+  margin-bottom: 20px;
+}
+.vocabulary-publico-objetivo .field--name-field-banner img {
+  width: 100%;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas {
+  width: 1280px;
+  margin: 20px auto;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters {
+  border-top: solid thin #627786;
+  border-bottom: solid thin #627786;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .edit-actions .btn-primary {
+  background-color: #F6BF42;
+  background: #F6BF42;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup {
+  flex-basis: 60%;
+  display: flex;
+  flex-direction: row;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup legend {
+  flex-basis: 20%;
+  font-family: "Raleway", sans-serif;
+  color: #627786;
+  font-weight: 300;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup .fieldset-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup .fieldset-wrapper .form-radios {
+  display: flex;
+  flex-direction: row;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup .fieldset-wrapper .form-radios .form-item {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup .fieldset-wrapper .form-radios .form-item-field-formato-del-recurso-target-id label {
+  font-family: "Raleway", sans-serif;
+  color: #627786;
+  font-weight: 300;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup .fieldset-wrapper .form-radios .form-item-field-formato-del-recurso-target-id label[for=edit-field-formato-del-recurso-target-id-1] {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup .fieldset-wrapper .form-radios .form-item-field-formato-del-recurso-target-id label[for=edit-field-formato-del-recurso-target-id-1]:before {
+  content: "";
+  background-image: url(../img/ico-web.png);
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup .fieldset-wrapper .form-radios .form-item-field-formato-del-recurso-target-id label[for=edit-field-formato-del-recurso-target-id-2] {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup .fieldset-wrapper .form-radios .form-item-field-formato-del-recurso-target-id label[for=edit-field-formato-del-recurso-target-id-2]:before {
+  content: "";
+  background-image: url(../img/ico-audio.png);
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup .fieldset-wrapper .form-radios .form-item-field-formato-del-recurso-target-id label[for=edit-field-formato-del-recurso-target-id-3] {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup .fieldset-wrapper .form-radios .form-item-field-formato-del-recurso-target-id label[for=edit-field-formato-del-recurso-target-id-3]:before {
+  content: "";
+  background-image: url(../img/ico-web.png);
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup .fieldset-wrapper .form-radios .form-item-field-formato-del-recurso-target-id label[for=edit-field-formato-del-recurso-target-id-4] {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup .fieldset-wrapper .form-radios .form-item-field-formato-del-recurso-target-id label[for=edit-field-formato-del-recurso-target-id-4]:before {
+  content: "";
+  background-image: url(../img/ico-doc.png);
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup .fieldset-wrapper .form-radios .form-item-field-formato-del-recurso-target-id label[for=edit-field-formato-del-recurso-target-id-5] {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup .fieldset-wrapper .form-radios .form-item-field-formato-del-recurso-target-id label[for=edit-field-formato-del-recurso-target-id-5]:before {
+  content: "";
+  background-image: url(../img/ico-video.png);
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup .fieldset-wrapper .form-radios .form-item-field-formato-del-recurso-target-id:first-of-type {
+  display: none;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .form-type-textfield {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .form-type-textfield label {
+  font-family: "Raleway", sans-serif;
+  color: #627786;
+  font-weight: 300;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-recur {
+  width: 100%;
+  border-top: solid 5px #3C8832;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-recur .view-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-recur .view-content .views-row {
+  padding: 5px;
+  flex-basis: 33%;
+  position: relative;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-recur .view-content .views-row .views-field-field-imagen {
+  width: 100%;
+  height: 200px;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-recur .view-content .views-row .views-field-field-imagen .field-content {
+  height: 100%;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-recur .view-content .views-row .views-field-field-imagen .field-content img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-recur .view-content .views-row .views-field-view-node {
+  position: absolute;
+  border-radius: 40px 0 0 40px;
+  top: 160px;
+  right: 5%;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-recur .view-content .views-row .views-field-view-node .field-content {
+  background-color: #2A65B0;
+  border-radius: 40px 0 0 40px;
+  display: flex;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-recur .view-content .views-row .views-field-view-node .field-content a {
+  color: white;
+  text-decoration: none;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-recur .view-content .views-row .views-field-title {
+  border-left: 2px solid #F6BF42;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.vocabulary-publico-objetivo .field--name-field-vistas .view-recur .view-content .views-row .views-field-title a {
+  color: black;
+  text-decoration: none;
+}
+
+.field--name-field-grupo-de-secciones {
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  background-color: #D8ECF7;
+  justify-content: center;
+}
+.field--name-field-grupo-de-secciones .field__item {
+  width: 640px;
+  padding: 15px;
+}
+.field--name-field-grupo-de-secciones .field__item .block-views-blocksecciones-block-1 {
+  border-right: solid 5px #2196f3;
+  height: 100%;
+}
+.field--name-field-grupo-de-secciones h2 {
+  font-size: 1.2rem;
+}
+.field--name-field-grupo-de-secciones .view-display-id-block_1 {
+  width: 100%;
+}
+.field--name-field-grupo-de-secciones .view-display-id-block_1 .view-content {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+.field--name-field-grupo-de-secciones .view-display-id-block_1 .view-content .views-row {
+  flex-basis: 33%;
+  padding: 5px;
+}
+.field--name-field-grupo-de-secciones .view-display-id-block_1 .view-content .views-row .views-field-field-imagen {
+  width: 100%;
+}
+.field--name-field-grupo-de-secciones .view-display-id-block_1 .view-content .views-row .views-field-field-imagen .field-content {
+  display: flex;
+}
+.field--name-field-grupo-de-secciones .view-display-id-block_1 .view-content .views-row .views-field-field-imagen .field-content img {
+  border-radius: 10px;
+}
+
+.block-views-blocksecciones-block-1 h2 {
+  display: flex;
+  align-items: center;
+}
+.block-views-blocksecciones-block-1 h2:before {
+  content: "";
+  background-image: url(../img/ico-tic.png);
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+
+.block-views-blocksecciones-block-2 h2 {
+  display: flex;
+  align-items: center;
+}
+.block-views-blocksecciones-block-2 h2:before {
+  content: "";
+  background-image: url(../img/ico-pad.png);
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+
+.profes-al-dia {
+  display: flex;
+}
+.profes-al-dia .view-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.profes-al-dia .view-content .views-row {
+  width: 100%;
+  margin: 5px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profes-al-dia .view-content .views-row .views-field-field-imagen {
+  flex-basis: 40%;
+}
+.profes-al-dia .view-content .views-row .views-field-nothing {
+  flex-basis: 60%;
+  padding: 10px;
+}
+.field--name-field-video-de-la-semana {
+  background-color: #627786;
+  width: 100%;
+  padding-top: 10px;
+}
+.field--name-field-video-de-la-semana .block-views-blocksecciones-block-3 {
+  width: 1280px;
+  margin: 20px auto;
+}
+.field--name-field-video-de-la-semana .block-views-blocksecciones-block-3 h2 {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1.2rem;
+}
+.field--name-field-video-de-la-semana .block-views-blocksecciones-block-3 h2:before {
+  content: "";
+  background-image: url(../img/ico-video-semana.png);
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+
+.titulo-recuadros {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.1rem;
+  margin-bottom: 5px;
+}
+.titulo-recuadros a {
+  text-decoration: none;
+  color: black;
+}
+
+.resumen-recuadros {
+  font-size: 1rem;
+  font-weight: 100;
+  margin-top: 2px;
+}
+
+.video-semana {
+  display: flex;
+  width: 100%;
+}
+.video-semana .view-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.video-semana .view-content .views-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0px;
+}
+.video-semana .view-content .views-row .views-field-field-video {
+  flex-basis: 50%;
+}
+.video-semana .view-content .views-row .views-field-field-video .field-content {
+  width: 100%;
+}
+.video-semana .view-content .views-row .views-field-field-video .field-content .youtube-container {
+  padding-right: 10px;
+  width: 100%;
+}
+.video-semana .view-content .views-row .views-field-field-video .field-content .youtube-container iframe {
+  width: 100%;
+}
+.video-semana .view-content .views-row .views-field-nothing {
+  flex-basis: 50%;
+}
+.video-semana .view-content .views-row .views-field-nothing .field-content .titulo-recuadros {
+  font-size: 1.3rem;
+}
+.video-semana .view-content .views-row .views-field-nothing .field-content .titulo-recuadros a {
+  color: white;
+}
+.video-semana .view-content .views-row .views-field-nothing .field-content .resumen-recuadros {
+  margin-top: 10px;
+}
+.video-semana .view-content .views-row .views-field-nothing .field-content .resumen-recuadros p {
+  color: white;
+}
+
+.field--name-field-profes-del-mes {
+  width: 100%;
+  background-image: url(../img/bg-section-pm.png);
+  background-size: cover;
+  margin-top: -20px;
+}
+.field--name-field-profes-del-mes .block-views-blocksecciones-block-4 {
+  width: 1280px;
+  margin: 20px auto;
+  padding: 20px;
+}
+.field--name-field-profes-del-mes .block-views-blocksecciones-block-4 h2 {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.field--name-field-profes-del-mes .block-views-blocksecciones-block-4 h2:before {
+  content: "";
+  background-image: url(../img/ico-profe-mes.png);
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+
+.field--name-field-aliados {
+  width: 1280px;
+  margin: 20px auto;
+}
+.field--name-field-aliados h2 {
+  font-size: 1.2rem;
+}
+.field--name-field-aliados .aliados-section {
+  display: flex;
+}
+.field--name-field-aliados .aliados-section .view-content {
+  display: flex;
+  width: 100%;
+}
+.field--name-field-aliados .aliados-section .view-content .views-row {
+  padding: 10px;
+  flex-basis: 20%;
+}
+.field--name-field-aliados .aliados-section .view-content .views-row .views-field-field-l {
+  display: flex;
+}
+.profes-del-mes {
+  margin-top: 10px;
+}
+.profes-del-mes .view-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.profes-del-mes .view-content .views-row {
+  flex-basis: 45%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.profes-del-mes .view-content .views-row .views-field-field-imagen {
+  width: 90%;
+  height: 400px;
+}
+.profes-del-mes .view-content .views-row .views-field-field-imagen .field-content {
+  width: 100%;
+  height: 100%;
+}
+.profes-del-mes .view-content .views-row .views-field-field-imagen .field-content img {
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+.profes-del-mes .view-content .views-row .views-field-nothing {
+  margin-top: 10px;
+  width: 90%;
+}
+.profes-del-mes .view-content .views-row .views-field-view-node {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
+.profes-del-mes .view-content .views-row .views-field-view-node .field-content {
+  font-weight: 700;
+  color: #2A65B0;
+}
+.profes-del-mes .view-content .views-row .views-field-view-node .field-content a {
+  text-decoration: none;
+}
+
+#edit-submit-recur {
+  background-color: #F6BF42;
+  background: #F6BF42;
+  border: none;
+  border-radius: 0%;
+  color: black;
+  margin-top: 5px;
+}/*# sourceMappingURL=theme.css.map */

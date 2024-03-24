@@ -1,0 +1,562 @@
+
+.vocabulary-publico-objetivo{
+    width: 100%;
+    .field--name-field-banner{
+        margin-bottom: 20px;
+        img{
+            width: 100%;
+        }
+    }
+    .field--name-field-vistas{
+        width: 1280px;
+        margin: 20px auto;
+        .view-filters{
+            border-top: solid thin #627786;
+            border-bottom: solid thin #627786;
+            .views-exposed-form{
+                .edit-actions{
+                    .btn-primary{
+                        background-color: #F6BF42;
+                        background: #F6BF42;
+                    }
+                }
+                .form--inline{
+                    display: flex;
+                    width: 100%;
+                    justify-content: flex-start;
+                    .fieldgroup{
+                        flex-basis: 60%;
+                        display: flex;
+                        flex-direction: row;
+                        legend{
+                            flex-basis: 20%;
+                            font-family: "Raleway", sans-serif;
+                            color: #627786;
+                            font-weight: 300;
+
+                        }
+                        .fieldset-wrapper{
+                            display: flex;
+                            flex-direction: row;
+                            .form-radios{
+                                display: flex;
+                                flex-direction: row;    
+                                .form-item{
+                                    display: flex;
+                                    flex-direction: row-reverse;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 10px;
+                                    
+                                }
+                                .form-item-field-formato-del-recurso-target-id{
+                                    label{
+                                        font-family: "Raleway", sans-serif;
+                                        color: #627786;
+                                        font-weight: 300;
+                                    }
+                                    label[for=edit-field-formato-del-recurso-target-id-1]{
+                                        display: flex;
+                                        align-items: center;
+                                        gap: 5px;
+                                        &:before{
+                                            content: "";
+                                            background-image: url(../img/ico-web.png);
+                                            width: 20px;
+                                            height: 20px;
+                                            background-size: contain;
+                                            background-repeat: no-repeat;
+
+                                        }
+
+                                    }
+                                    label[for=edit-field-formato-del-recurso-target-id-2]{
+                                        display: flex;
+                                        align-items: center;
+                                        gap: 5px;
+                                        &:before{
+                                            content: "";
+                                            background-image: url(../img/ico-audio.png);
+                                            width: 20px;
+                                            height: 20px;
+                                            background-size: contain;
+                                            background-repeat: no-repeat;
+
+                                        }
+
+                                    }
+                                    label[for=edit-field-formato-del-recurso-target-id-3]{
+                                        display: flex;
+                                        align-items: center;
+                                        gap: 5px;
+                                        &:before{
+                                            content: "";
+                                            background-image: url(../img/ico-web.png);
+                                            width: 20px;
+                                            height: 20px;
+                                            background-size: contain;
+                                            background-repeat: no-repeat;
+
+                                        }
+
+                                    }
+                                    label[for=edit-field-formato-del-recurso-target-id-4]{
+                                        display: flex;
+                                        align-items: center;
+                                        gap: 5px;
+                                        &:before{
+                                            content: "";
+                                            background-image: url(../img/ico-doc.png);
+                                            width: 20px;
+                                            height: 20px;
+                                            background-size:  contain;
+                                            background-repeat: no-repeat;
+
+                                        }
+
+                                    }
+                                    label[for=edit-field-formato-del-recurso-target-id-5]{
+                                        display: flex;
+                                        align-items: center;
+                                        gap: 5px;
+                                        &:before{
+                                            content: "";
+                                            background-image: url(../img/ico-video.png);
+                                            width: 20px;
+                                            height: 20px;
+                                            background-size: contain;
+                                            background-repeat: no-repeat;
+
+                                        }
+
+                                    }
+                                    &:first-of-type{
+                                        display: none;
+                                    }
+                                }
+
+                            }
+
+                        }
+
+                    }
+                    .form-type-textfield{
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+                        label{
+                            font-family: "Raleway", sans-serif;
+                            color: #627786;
+                            font-weight: 300;
+                        }
+
+                    }
+
+                }
+
+            }
+        }
+        .view-recur{
+            width: 100%;
+            border-top: solid 5px $green-color;
+            .view-content{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+
+                .views-row{
+                    padding: 5px;
+                    flex-basis: 33%;
+                    position: relative;
+
+                    .views-field-field-imagen{
+                        width: 100%;
+                        height: 200px;
+                        .field-content{
+                            height: 100%;
+
+                            img{
+                                height: 100%;
+                                object-fit: cover;
+
+                            }
+                        }
+
+                    }
+                    .views-field-view-node{
+                        position: absolute;
+                        border-radius: 40px 0 0 40px;
+                        top: 160px;
+                        right: 5%;  
+                        .field-content{
+                            background-color: #2A65B0;
+                            border-radius: 40px 0 0 40px;
+                            display: flex;
+                            padding: 10px 30px ;
+                            justify-content: center;
+                            align-items: center;
+                            a{
+                                color: white;
+                                text-decoration: none;
+                            }
+                        }
+
+                    }
+                    .views-field-title{
+                        border-left: 2px solid $yellow-color;
+                        margin-top: 20px;
+                        padding-left: 20px;
+                        a{
+                            color: black;
+                            text-decoration: none;
+                        }
+                    }
+
+
+                }
+            }
+
+        }
+    }
+}
+
+.field--name-field-grupo-de-secciones{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    background-color: #D8ECF7;
+    justify-content: center;
+
+    .field__item{
+        width: 640px;
+        padding: 15px;
+        
+        .block-views-blocksecciones-block-1{
+            
+                
+                border-right: solid 5px #2196f3;
+                height: 100%;
+                
+            
+
+        }
+    }
+        h2{
+            font-size: 1.2rem;
+        }
+        .view-display-id-block_1{
+            width: 100%;
+            .view-content{
+                display: flex;
+                width: 100%;
+                margin-top: 20px;
+                .views-row{
+                    flex-basis: 33%;
+                    padding: 5px;
+                    .views-field-field-imagen{
+                        width: 100%;
+                        .field-content{
+                            display: flex;
+                            img{
+                                border-radius: 10px;
+                            }
+                        }
+
+
+                    }
+
+                }
+            }
+
+        }
+    }
+
+.block-views-blocksecciones-block-1{
+    h2{
+        display: flex;
+        align-items: center;
+        &:before{
+            content: "";
+            background-image: url(../img/ico-tic.png);
+            width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+
+
+        }
+    }
+
+}
+.block-views-blocksecciones-block-2{
+    h2{
+        display: flex;
+        align-items: center;
+        &:before{
+            content: "";
+            background-image: url(../img/ico-pad.png);
+            width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+
+
+        }
+    }
+
+}
+.profes-al-dia{
+    display: flex;
+    .view-content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+        .views-row{
+            width: 100%;
+            margin: 5px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .views-field-field-imagen{
+                flex-basis: 40%;
+                .field-content{
+                    img{
+
+                    }
+                }
+
+            }
+            .views-field-nothing{
+                flex-basis: 60%;
+                padding: 10px;
+                .field-content{
+                    a{
+
+                    }
+                    p{
+
+                    }
+                }
+            }
+        }
+    }
+
+}
+.field--name-field-video-de-la-semana{
+    background-color: #627786;
+    width: 100%;
+    padding-top: 10px;
+    .block-views-blocksecciones-block-3{
+        width: 1280px;
+        margin: 20px auto;
+        h2{
+            display: flex;
+            align-items: center;
+            color: white;
+            font-size: 1.2rem;
+            &:before{
+                content: "";
+                background-image: url(../img/ico-video-semana.png);
+                width: 40px;
+                height: 40px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                margin-right: 20px;
+    
+    
+            }
+        }
+    }
+    
+
+}
+.titulo-recuadros{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.1rem;
+    margin-bottom: 5px;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+}
+.resumen-recuadros{
+    font-size: 1rem;
+    font-weight: 100;
+    margin-top: 2px;
+}
+.video-semana{
+    display: flex;
+    width: 100%;
+    .view-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        .views-row{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin: 10px 0px;
+            .views-field-field-video{
+                flex-basis: 50%;
+
+                .field-content{
+                    width: 100%;
+                    .youtube-container{
+                        padding-right: 10px;
+                        width: 100%;
+                        iframe{
+                            width: 100%;
+
+
+                        }
+                    }
+                }
+
+            }
+            .views-field-nothing{
+                flex-basis: 50%;
+                .field-content{
+                    .titulo-recuadros{
+                        font-size: 1.3rem;
+                        a{
+                            color: white;
+                        }
+
+                    }
+                    .resumen-recuadros{
+                        margin-top: 10px;
+                        p{
+                            color: white;
+                        }
+
+                    }
+                }
+
+            }
+
+        }
+    }
+}
+.field--name-field-profes-del-mes{
+    width: 100%;
+    background-image: url(../img/bg-section-pm.png);
+    background-size: cover;
+    margin-top: -20px;
+    .block-views-blocksecciones-block-4{
+        width: 1280px;
+        margin: 20px auto;
+        padding: 20px;
+        h2{
+            display: flex;
+            align-items: center;
+            font-size: 1.2rem;
+            &:before{
+                content: "";
+                background-image: url(../img/ico-profe-mes.png);
+                width: 40px;
+                height: 40px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                margin-right: 20px;
+    
+    
+            }
+        }
+    }
+}
+.field--name-field-aliados{
+    width: 1280px;
+    margin: 20px auto;
+    h2{
+        font-size: 1.2rem;
+    }
+    .aliados-section{
+        display: flex;
+        .view-content{
+            display: flex;
+            width: 100%;
+            .views-row{
+                padding: 10px;
+                flex-basis: 20%;
+                .views-field-field-l{
+                    display: flex;
+                    .field-content{
+                        img{
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+.profes-del-mes{
+    margin-top: 10px;
+    .view-content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        .views-row{
+            flex-basis: 45%;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            .views-field-field-imagen{
+                width: 90%;
+                height: 400px;
+                .field-content{
+                    width: 100%;
+                    height: 100%;
+                    img{
+                        border-radius: 10px;
+                        object-fit: cover;
+                        height: 100%;
+                    }
+                }
+
+            }
+            .views-field-nothing{
+                margin-top: 10px;
+                width: 90%;
+
+            }
+            .views-field-view-node{
+                width: 100%;
+                display: flex;
+                align-items: flex-end;
+                justify-content: end;
+                .field-content{
+                    font-weight: 700;
+                    color: $blue-color;
+                    a{
+                        text-decoration: none;
+                    }
+                }
+
+            }
+        }
+    }
+
+}
+#edit-submit-recur{
+    background-color: #F6BF42;
+    background: #F6BF42;
+    border: none;
+    border-radius: 0%;
+    color: black;
+    margin-top: 5px;
+
+}
