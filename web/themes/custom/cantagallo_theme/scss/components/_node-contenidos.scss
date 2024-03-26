@@ -1,12 +1,13 @@
 .bg-green{
     height: 30px;
     width: 100%;
-    background-image: url(../img/bg-top-nodo.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url(../img/bg-top-nodo.png);
 
 }
 .node-content{
+    width: 100%;
     color: $gray-color;
     font-family: $primary-font;
     h2{
@@ -15,8 +16,6 @@
         width: 100%;
         text-align: center;
         color: $green-color;
-        
-
     }
     .node__content{
         margin-left: -15px;

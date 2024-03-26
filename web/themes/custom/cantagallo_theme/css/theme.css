@@ -1121,10 +1121,13 @@ body {
 .bg-green {
   height: 30px;
   width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: url(../img/bg-top-nodo.png);
 }
 
 .node-content {
+  width: 100%;
   color: #627786;
   font-family: "Raleway", sans-serif;
 }
