@@ -1,14 +1,5 @@
-.barra-superior-govco {
-  background-color: #3366cc;
-}
-.barra-superior-govco img {
-  width: 100px;
-  margin-left: 2rem;
-}
-
-@font-face {
-  font-family: "govco-fontv2";
-  src: url("../fonts/govco/govco-font-icons.ttf") format("truetype");
+@import url("https://fonts.googleapis.com/css2?family=Single+Day&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");/*# sourceMappingURL=all.css.map */truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -140,6 +131,7 @@ p {
 .govco-data-front {
   width: calc(100% - 40px);
   margin-left: 20px !important;
+  -webkit-box-shadow: 50px 30px 0px -30px #3d8832, -50px 30px 0px -30px #3d8832, 0px 20px 0px 0px #3d8832, 50px 50px 0px -30px #3d8832, -50px 50px 0px -30px #3d8832;
   box-shadow: 50px 30px 0px -30px #3d8832, -50px 30px 0px -30px #3d8832, 0px 20px 0px 0px #3d8832, 50px 50px 0px -30px #3d8832, -50px 50px 0px -30px #3d8832;
   top: 0;
   border: 2px solid #e5eefb;
@@ -182,7 +174,8 @@ p {
 .icon::before {
   margin: 0 !important;
   padding: 0 !important;
-  transform: scale(1.5, 1.5);
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
   margin-right: 10px !important;
   margin-left: 5px !important;
   vertical-align: text-top !important;
