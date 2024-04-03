@@ -1,9 +1,4 @@
 .bg-green{
-    height: 30px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../img/bg-top-nodo.png);
 
 }
 .node-content{
@@ -34,6 +29,10 @@
                 object-fit: cover;
 
             }
+        }
+        .field--name-body{
+            margin-top: 50px;
+            margin-bottom: 30px;
         }
         .field--name-field-video{
             width: 100%;

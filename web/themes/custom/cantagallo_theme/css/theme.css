@@ -802,7 +802,7 @@ body {
   border-radius: 10px;
 }
 
-.block-views-blocksecciones-block-1 h2 {
+.block-views-blocksecciones-block-1 h2, .block-views-blocksecciones-block-6 h2, .block-views-blocksecciones-block-5 h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -810,7 +810,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-.block-views-blocksecciones-block-1 h2:before {
+.block-views-blocksecciones-block-1 h2:before, .block-views-blocksecciones-block-6 h2:before, .block-views-blocksecciones-block-5 h2:before {
   content: "";
   background-image: url(../img/ico-tic.png);
   width: 40px;
@@ -820,7 +820,7 @@ body {
   margin-right: 20px;
 }
 
-.block-views-blocksecciones-block-2 h2 {
+.block-views-blocksecciones-block-2 h2, .block-views-blocksecciones-block-8 h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -828,7 +828,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-.block-views-blocksecciones-block-2 h2:before {
+.block-views-blocksecciones-block-2 h2:before, .block-views-blocksecciones-block-8 h2:before {
   content: "";
   background-image: url(../img/ico-pad.png);
   width: 40px;
@@ -880,11 +880,11 @@ body {
   width: 100%;
   padding-top: 10px;
 }
-.field--name-field-video-de-la-semana .block-views-blocksecciones-block-3 {
+.field--name-field-video-de-la-semana .block-views-blocksecciones-block-3, .field--name-field-video-de-la-semana .block-views-blocksecciones-block-10, .field--name-field-video-de-la-semana .block-views-blocksecciones-block-9 {
   width: 1280px;
   margin: 20px auto;
 }
-.field--name-field-video-de-la-semana .block-views-blocksecciones-block-3 h2 {
+.field--name-field-video-de-la-semana .block-views-blocksecciones-block-3 h2, .field--name-field-video-de-la-semana .block-views-blocksecciones-block-10 h2, .field--name-field-video-de-la-semana .block-views-blocksecciones-block-9 h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -894,7 +894,7 @@ body {
   color: white;
   font-size: 1.2rem;
 }
-.field--name-field-video-de-la-semana .block-views-blocksecciones-block-3 h2:before {
+.field--name-field-video-de-la-semana .block-views-blocksecciones-block-3 h2:before, .field--name-field-video-de-la-semana .block-views-blocksecciones-block-10 h2:before, .field--name-field-video-de-la-semana .block-views-blocksecciones-block-9 h2:before {
   content: "";
   background-image: url(../img/ico-video-semana.png);
   width: 40px;
@@ -989,12 +989,12 @@ body {
   background-size: cover;
   margin-top: -20px;
 }
-.field--name-field-profes-del-mes .block-views-blocksecciones-block-4 {
+.field--name-field-profes-del-mes .block-views-blocksecciones-block-4, .field--name-field-profes-del-mes .block-views-blocksecciones-block-11, .field--name-field-profes-del-mes .block-views-blocksecciones-block-12 {
   width: 1280px;
   margin: 20px auto;
   padding: 20px;
 }
-.field--name-field-profes-del-mes .block-views-blocksecciones-block-4 h2 {
+.field--name-field-profes-del-mes .block-views-blocksecciones-block-4 h2, .field--name-field-profes-del-mes .block-views-blocksecciones-block-11 h2, .field--name-field-profes-del-mes .block-views-blocksecciones-block-12 h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1003,7 +1003,7 @@ body {
           align-items: center;
   font-size: 1.2rem;
 }
-.field--name-field-profes-del-mes .block-views-blocksecciones-block-4 h2:before {
+.field--name-field-profes-del-mes .block-views-blocksecciones-block-4 h2:before, .field--name-field-profes-del-mes .block-views-blocksecciones-block-11 h2:before, .field--name-field-profes-del-mes .block-views-blocksecciones-block-12 h2:before {
   content: "";
   background-image: url(../img/ico-profe-mes.png);
   width: 40px;
@@ -1118,14 +1118,6 @@ body {
   margin-top: 5px;
 }
 
-.bg-green {
-  height: 30px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(../img/bg-top-nodo.png);
-}
-
 .node-content {
   width: 100%;
   color: #627786;
@@ -1156,6 +1148,10 @@ body {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.node-content .node__content .field--name-body {
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 .node-content .node__content .field--name-field-video {
   width: 100%;
