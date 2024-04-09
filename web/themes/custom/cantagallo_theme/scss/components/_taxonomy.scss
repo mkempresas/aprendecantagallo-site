@@ -186,8 +186,8 @@
                     .views-field-view-node{
                         position: absolute;
                         border-radius: 40px 0 0 40px;
-                        top: 160px;
-                        right: 5%;  
+                        top: 135px;
+                        right: 1%;  
                         .field-content{
                             background-color: #2A65B0;
                             border-radius: 40px 0 0 40px;
@@ -244,12 +244,13 @@
         h2{
             font-size: 1.2rem;
         }
-        .view-display-id-block_1{
+        .view-display-id-block_1, .view-display-id-block_5, .view-display-id-block_6{
             width: 100%;
             .view-content{
                 display: flex;
                 width: 100%;
                 margin-top: 20px;
+                flex-wrap: wrap;
                 .views-row{
                     flex-basis: 33%;
                     padding: 5px;
@@ -289,7 +290,7 @@
     }
 
 }
-.block-views-blocksecciones-block-2, .block-views-blocksecciones-block-8 {
+.block-views-blocksecciones-block-2, .block-views-blocksecciones-block-8, .block-views-blocksecciones-block-13 {
     h2{
         display: flex;
         align-items: center;

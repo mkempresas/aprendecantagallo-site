@@ -487,6 +487,30 @@ body {
   color: white;
   text-decoration: none;
 }
+.menu-perfiles .view-content .views-row:nth-child(4) {
+  background: #3C8832;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.menu-perfiles .view-content .views-row:nth-child(4):before {
+  content: "";
+  background-image: url(../img/ico-estu.png);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  margin-right: 30px;
+}
+.menu-perfiles .view-content .views-row:nth-child(4) a {
+  color: white;
+  text-decoration: none;
+}
 .menu-perfiles .view-content .views-row .views-field-name {
   color: white;
   text-align: center;
@@ -722,8 +746,8 @@ body {
 .vocabulary-publico-objetivo .field--name-field-vistas .view-recur .view-content .views-row .views-field-view-node {
   position: absolute;
   border-radius: 40px 0 0 40px;
-  top: 160px;
-  right: 5%;
+  top: 135px;
+  right: 1%;
 }
 .vocabulary-publico-objetivo .field--name-field-vistas .view-recur .view-content .views-row .views-field-view-node .field-content {
   background-color: #2A65B0;
@@ -775,30 +799,32 @@ body {
 .field--name-field-grupo-de-secciones h2 {
   font-size: 1.2rem;
 }
-.field--name-field-grupo-de-secciones .view-display-id-block_1 {
+.field--name-field-grupo-de-secciones .view-display-id-block_1, .field--name-field-grupo-de-secciones .view-display-id-block_5, .field--name-field-grupo-de-secciones .view-display-id-block_6 {
   width: 100%;
 }
-.field--name-field-grupo-de-secciones .view-display-id-block_1 .view-content {
+.field--name-field-grupo-de-secciones .view-display-id-block_1 .view-content, .field--name-field-grupo-de-secciones .view-display-id-block_5 .view-content, .field--name-field-grupo-de-secciones .view-display-id-block_6 .view-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   margin-top: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
-.field--name-field-grupo-de-secciones .view-display-id-block_1 .view-content .views-row {
+.field--name-field-grupo-de-secciones .view-display-id-block_1 .view-content .views-row, .field--name-field-grupo-de-secciones .view-display-id-block_5 .view-content .views-row, .field--name-field-grupo-de-secciones .view-display-id-block_6 .view-content .views-row {
   -ms-flex-preferred-size: 33%;
       flex-basis: 33%;
   padding: 5px;
 }
-.field--name-field-grupo-de-secciones .view-display-id-block_1 .view-content .views-row .views-field-field-imagen {
+.field--name-field-grupo-de-secciones .view-display-id-block_1 .view-content .views-row .views-field-field-imagen, .field--name-field-grupo-de-secciones .view-display-id-block_5 .view-content .views-row .views-field-field-imagen, .field--name-field-grupo-de-secciones .view-display-id-block_6 .view-content .views-row .views-field-field-imagen {
   width: 100%;
 }
-.field--name-field-grupo-de-secciones .view-display-id-block_1 .view-content .views-row .views-field-field-imagen .field-content {
+.field--name-field-grupo-de-secciones .view-display-id-block_1 .view-content .views-row .views-field-field-imagen .field-content, .field--name-field-grupo-de-secciones .view-display-id-block_5 .view-content .views-row .views-field-field-imagen .field-content, .field--name-field-grupo-de-secciones .view-display-id-block_6 .view-content .views-row .views-field-field-imagen .field-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.field--name-field-grupo-de-secciones .view-display-id-block_1 .view-content .views-row .views-field-field-imagen .field-content img {
+.field--name-field-grupo-de-secciones .view-display-id-block_1 .view-content .views-row .views-field-field-imagen .field-content img, .field--name-field-grupo-de-secciones .view-display-id-block_5 .view-content .views-row .views-field-field-imagen .field-content img, .field--name-field-grupo-de-secciones .view-display-id-block_6 .view-content .views-row .views-field-field-imagen .field-content img {
   border-radius: 10px;
 }
 
@@ -820,7 +846,7 @@ body {
   margin-right: 20px;
 }
 
-.block-views-blocksecciones-block-2 h2, .block-views-blocksecciones-block-8 h2 {
+.block-views-blocksecciones-block-2 h2, .block-views-blocksecciones-block-8 h2, .block-views-blocksecciones-block-13 h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -828,7 +854,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-.block-views-blocksecciones-block-2 h2:before, .block-views-blocksecciones-block-8 h2:before {
+.block-views-blocksecciones-block-2 h2:before, .block-views-blocksecciones-block-8 h2:before, .block-views-blocksecciones-block-13 h2:before {
   content: "";
   background-image: url(../img/ico-pad.png);
   width: 40px;
