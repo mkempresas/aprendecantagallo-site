@@ -1,0 +1,62 @@
+.slider-perfiles{
+    .view-content{
+        .skin-default{
+            position: relative;
+            .views-slideshow-controls-top{
+                position: absolute;
+                top: 45%;
+                z-index: 10;
+                width: 100%;
+                .views_slideshow_controls_text{
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0 10px;
+                    .views_slideshow_controls_text_previous{
+                        width: 50px;
+                        height: 50px;
+                        background-image: url(../img/arrow-slide.png);
+                        background-size: cover;
+                        padding: 2px;
+                     
+                        rotate: 180deg;
+                        a{
+                            color: transparent;
+                            font-size: 0px;
+                            text-decoration: none;
+                            :hover{
+                                text-decoration: none;
+                            }
+                        }
+
+                    }
+                    .views_slideshow_controls_text_pause{
+                        display: none;
+                    }
+                    .views_slideshow_controls_text_next{
+                        width: 50px;
+                        height: 50px;
+                        background-image: url(../img/arrow-slide.png);
+                        background-size: cover;
+                        padding: 2px;
+                        
+                    
+                        a{
+                            color: transparent;
+                            font-size: 0px;
+                            text-decoration: none;
+                            :hover{
+                                text-decoration: none;
+                            }
+                        }
+
+                    }
+
+                }
+
+            }
+            .views_slideshow_main{
+
+            }
+        }
+    }    
+}
