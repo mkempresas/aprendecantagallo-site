@@ -952,7 +952,6 @@ body {
   font-size: 1rem;
   font-weight: 100;
   margin-top: 2px;
-  color: white;
 }
 
 .video-semana {
@@ -1012,6 +1011,7 @@ body {
 }
 .video-semana .view-content .views-row .views-field-nothing .field-content .resumen-recuadros {
   margin-top: 10px;
+  color: white;
 }
 .video-semana .view-content .views-row .views-field-nothing .field-content .resumen-recuadros p {
   color: white;
