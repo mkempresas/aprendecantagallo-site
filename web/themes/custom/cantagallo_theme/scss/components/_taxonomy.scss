@@ -40,10 +40,13 @@
                             flex-direction: row;
                             .form-radios{
                                 display: flex;
-                                flex-direction: row;    
+                                flex-direction: row;
+                                margin-left: 10px;
+                                margin-right: 10px; 
+                                gap: 20px;
                                 .form-item{
                                     display: flex;
-                                    flex-direction: row-reverse;
+                                    flex-direction: row;
                                     justify-content: center;
                                     align-items: center;
                                     gap: 10px;
@@ -61,7 +64,7 @@
                                         gap: 5px;
                                         &:before{
                                             content: "";
-                                            background-image: url(../img/ico-web.png);
+                                            background-image: url(../img/ico-all.png);
                                             width: 20px;
                                             height: 20px;
                                             background-size: contain;
@@ -390,6 +393,7 @@
     font-size: 1rem;
     font-weight: 100;
     margin-top: 2px;
+    color: white;
 }
 .video-semana{
     display: flex;

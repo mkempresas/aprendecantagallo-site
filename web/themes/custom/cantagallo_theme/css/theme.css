@@ -315,6 +315,10 @@ p {
   display: none;
 }
 
+.navbar-brand {
+  padding-left: 20px;
+}
+
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -589,15 +593,18 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin-left: 10px;
+  margin-right: 10px;
+  gap: 20px;
 }
 .vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup .fieldset-wrapper .form-radios .form-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -622,7 +629,7 @@ body {
 }
 .vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup .fieldset-wrapper .form-radios .form-item-field-formato-del-recurso-target-id label[for=edit-field-formato-del-recurso-target-id-1]:before {
   content: "";
-  background-image: url(../img/ico-web.png);
+  background-image: url(../img/ico-all.png);
   width: 20px;
   height: 20px;
   background-size: contain;
@@ -945,6 +952,7 @@ body {
   font-size: 1rem;
   font-weight: 100;
   margin-top: 2px;
+  color: white;
 }
 
 .video-semana {
@@ -1146,7 +1154,7 @@ body {
 
 .node-content {
   width: 100%;
-  color: #627786;
+  color: #212121;
   font-family: "Raleway", sans-serif;
 }
 .node-content h2 {
