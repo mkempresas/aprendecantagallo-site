@@ -483,12 +483,14 @@
     width: 1280px;
     margin: 20px auto;
     h2{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+        text-align: center;
     }
     .aliados-section{
         display: flex;
         .view-content{
             display: flex;
+            justify-content: center;
             width: 100%;
             .views-row{
                 padding: 10px;
