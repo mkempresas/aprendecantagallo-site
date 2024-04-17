@@ -1167,6 +1167,8 @@ body {
   width: 100%;
   text-align: center;
   color: #3C8832;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .node-content .node__content {
   margin-left: -15px;
@@ -1211,15 +1213,15 @@ body {
   border-radius: 0%;
   color: black;
   margin-top: 5px;
-  padding: 10px;
   text-align: center;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: #F6BF42;
 }
 .node-content .node__content .field--name-field-web a {
   text-decoration: none;
+  padding: 10px;
+  background-color: #F6BF42;
 }
 
 .slider-perfiles .view-content .skin-default {

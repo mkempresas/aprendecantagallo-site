@@ -11,6 +11,8 @@
         width: 100%;
         text-align: center;
         color: $green-color;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
     .node__content{
         margin-left: -15px;
@@ -57,12 +59,14 @@
             border-radius: 0%;
             color: black;
             margin-top: 5px;
-            padding: 10px;
+            
             text-align: center;
             width: fit-content;
-            background-color: $yellow-color;
+            
             a{
                 text-decoration: none;
+                padding: 10px;
+                background-color: $yellow-color;
             }
             
 
