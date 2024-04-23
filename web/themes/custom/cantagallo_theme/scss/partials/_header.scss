@@ -5,3 +5,11 @@
 .navbar-brand{
     padding-left: 20px;
 }
+.navbar-expand-lg{
+    .navbar-toggler{
+        display: flex;
+    }
+    .navbar-collapse{
+        display: flex;
+    }
+}

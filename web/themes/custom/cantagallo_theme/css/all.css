@@ -1,14 +1,5 @@
-.barra-superior-govco {
-  background-color: #3366cc;
-}
-.barra-superior-govco img {
-  width: 100px;
-  margin-left: 2rem;
-}
-
-@font-face {
-  font-family: "govco-fontv2";
-  src: url("../fonts/govco/govco-font-icons.ttf") format("truetype");
+@import url("https://fonts.googleapis.com/css2?family=Single+Day&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");/*# sourceMappingURL=all.css.map */truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -315,4 +306,15 @@ p {
 
 .navbar-brand {
   padding-left: 20px;
+}
+
+.navbar-expand-lg .navbar-toggler {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.navbar-expand-lg .navbar-collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }/*# sourceMappingURL=all.css.map */
