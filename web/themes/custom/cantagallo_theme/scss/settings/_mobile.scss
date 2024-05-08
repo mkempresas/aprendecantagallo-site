@@ -1,0 +1,176 @@
+@media (max-width: 780px) {
+    
+    .video-home{
+        width: 100%;
+        background-color: $green-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .view-content{
+            display: flex;
+            width: 80%;
+            flex-direction: column;
+            .views-row{
+                padding: 2rem;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+                .views-field-field-video{
+                    iframe{
+                        width: 100%;
+                    }
+                }
+                
+                .views-field-body{
+                    .field-content{
+                        p{
+                            font-family: "Single Day", cursive;
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }
+    .menu-perfiles{
+        .view-content{
+            flex-direction: column;
+        }
+        .views-row{
+            margin-top: 10px;
+        }
+    }
+
+    .vocabulary-publico-objetivo{
+        .field--name-field-vistas{
+            width: 100% !important;
+            .view-filters{
+                
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                .views-exposed-form{
+                    .form--inline{
+                        flex-direction: column;
+                        .fieldgroup{
+                            .fieldset-wrapper{
+                                flex-direction: column !important;
+                                .form-radios{
+                                    flex-direction: column !important;
+                                }
+                            }
+
+                        } 
+
+                    }
+                }
+
+            }
+            .view-recur{
+                .view-content{
+                    flex-wrap: nowrap !important;
+                    flex-direction: column;
+                    .views-row{
+                        flex-basis: 100% !important;
+                    }
+                }
+            }
+
+        }
+        
+    }
+    .field--name-field-grupo-de-secciones{
+        flex-direction: column;
+        .field__item{
+            width: 100% !important;
+
+        }
+
+    }
+    
+.field--name-field-video-de-la-semana{
+    background-color: #627786;
+    width: 100%;
+    padding-top: 10px;
+    .block-views-blocksecciones-block-3, .block-views-blocksecciones-block-10, .block-views-blocksecciones-block-9, .block-views-blocksecciones-block-16{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        h2{
+            display: flex;
+            align-items: center;
+            color: white;
+            font-size: 1.2rem;
+            &:before{
+                content: "";
+                background-image: url(../img/ico-video-semana.png);
+                width: 40px;
+                height: 40px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                margin-right: 20px;
+    
+    
+            }
+        }
+    }
+    
+
+}
+.video-semana{
+    .view-content{
+        padding: 10px;
+
+        .views-row{
+            flex-direction: column;
+        }
+    }
+  
+}
+.profes-del-mes{
+    .view-content{
+        flex-direction: column;
+        .views-row{
+            flex-direction: column;
+            .views-field-field-imagen{
+                height: auto !important;
+            }
+        }
+    }
+}
+
+.field--name-field-profes-del-mes{
+    width: 100%;
+    background-image: url(../img/bg-section-pm.png);
+    background-size: cover;
+    margin-top: -20px;
+    .block-views-blocksecciones-block-4, .block-views-blocksecciones-block-11, .block-views-blocksecciones-block-17, .block-views-blocksecciones-block-12{
+        width: 100% !important;
+        margin: 20px auto;
+        padding: 20px;
+        h2{
+            display: flex;
+            align-items: center;
+            font-size: 1.2rem;
+            &:before{
+                content: "";
+                background-image: url(../img/ico-profe-mes.png);
+                width: 40px;
+                height: 40px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                margin-right: 20px;
+    
+    
+            }
+        }
+    }
+}
+.field--name-field-aliados{
+    width: 100% !important;
+}
+}
+
