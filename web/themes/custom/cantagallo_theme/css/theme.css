@@ -1247,7 +1247,6 @@ body {
 .slider-perfiles .view-content .skin-default .views-slideshow-controls-top {
   position: absolute;
   top: 45%;
-  z-index: 10;
   width: 100%;
 }
 .slider-perfiles .view-content .skin-default .views-slideshow-controls-top .views_slideshow_controls_text {
@@ -1265,6 +1264,7 @@ body {
   background-image: url(../img/arrow-slide.png);
   background-size: cover;
   padding: 2px;
+  z-index: 10;
   rotate: 180deg;
 }
 .slider-perfiles .view-content .skin-default .views-slideshow-controls-top .views_slideshow_controls_text .views_slideshow_controls_text_previous a {
@@ -1284,6 +1284,7 @@ body {
   background-image: url(../img/arrow-slide.png);
   background-size: cover;
   padding: 2px;
+  z-index: 10;
 }
 .slider-perfiles .view-content .skin-default .views-slideshow-controls-top .views_slideshow_controls_text .views_slideshow_controls_text_next a {
   color: transparent;
