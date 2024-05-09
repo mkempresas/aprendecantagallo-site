@@ -61,6 +61,7 @@
     width: 100% !important;
   }
   .vocabulary-publico-objetivo .field--name-field-vistas .view-filters {
+    padding-left: 10px;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -76,6 +77,14 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup {
+    -ms-flex-preferred-size: 100% !important;
+        flex-basis: 100% !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
   .vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup .fieldset-wrapper {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
@@ -83,10 +92,8 @@
             flex-direction: column !important;
   }
   .vocabulary-publico-objetivo .field--name-field-vistas .view-filters .views-exposed-form .form--inline .fieldgroup .fieldset-wrapper .form-radios {
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-direction: column !important;
-            flex-direction: column !important;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .vocabulary-publico-objetivo .field--name-field-vistas .view-recur .view-content {
     -ms-flex-wrap: nowrap !important;
@@ -212,6 +219,32 @@
   .lfoot img {
     width: 100%;
     height: auto;
+  }
+  .field--name-field-grupo-de-secciones .field__item .block-views-blocksecciones-block-1 {
+    border-right: none !important;
+  }
+  .resumen-recuadros {
+    display: none;
+  }
+  .slider-perfiles .view-content .skin-default .views-slideshow-controls-top .views_slideshow_controls_text .views_slideshow_controls_text_previous {
+    width: 10px !important;
+    height: 10px !important;
+  }
+  .slider-perfiles .view-content .skin-default .views-slideshow-controls-top .views_slideshow_controls_text .views_slideshow_controls_text_next {
+    width: 10px !important;
+    height: 10px !important;
+  }
+  .node-content .node__content .field--name-body {
+    padding: 10px;
+  }
+  .node-content .node__content .field--name-field-video {
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+  }
+  .node-content .node__content .field--name-field-video figure iframe {
+    width: 100%;
+    height: auto !important;
   }
 }
 .barra-superior-govco {
@@ -579,6 +612,9 @@ p {
   border-left: solid #3c8833 2px;
 }
 .navbar-nav li:first-of-type {
+  border-left: none;
+}
+.navbar-nav li ul li {
   border-left: none;
 }
 

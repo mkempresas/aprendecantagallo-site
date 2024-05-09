@@ -48,7 +48,7 @@
         .field--name-field-vistas{
             width: 100% !important;
             .view-filters{
-                
+                padding-left: 10px;
                 width: 100%;
                 display: flex;
                 flex-direction: column;
@@ -56,10 +56,13 @@
                     .form--inline{
                         flex-direction: column;
                         .fieldgroup{
+                            flex-basis: 100% !important;
+                            flex-direction: column !important;
+                            
                             .fieldset-wrapper{
                                 flex-direction: column !important;
                                 .form-radios{
-                                    flex-direction: column !important;
+                                    flex-wrap: wrap;
                                 }
                             }
 
@@ -187,5 +190,52 @@
         }
     
     }
+    .field--name-field-grupo-de-secciones{
+        .field__item{
+            .block-views-blocksecciones-block-1{
+                border-right:none !important;
+            }
+        }
+    }
+    .resumen-recuadros{
+        display: none;
+    }
+    .slider-perfiles{
+        .view-content{
+            .skin-default{
+                .views-slideshow-controls-top{
+                    .views_slideshow_controls_text{
+                        .views_slideshow_controls_text_previous{
+                            width: 10px !important;
+                            height: 10px !important;
+                        }
+                        .views_slideshow_controls_text_next{
+                            width: 10px !important;
+                            height: 10px !important;
+
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+    .node-content{
+        .node__content{
+            .field--name-body{
+                padding: 10px;
+            }
+            .field--name-field-video{
+                height: fit-content !important;
+                figure{
+                    iframe{
+                        width: 100%;
+                        height: auto !important;
+                    }
+                }
+            }
+        }
+    }
+    
 }
 
