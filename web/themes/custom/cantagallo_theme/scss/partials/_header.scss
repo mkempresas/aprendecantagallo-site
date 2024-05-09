@@ -44,3 +44,21 @@
     }
 
 }
+.sf-profes{
+    li{
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+        .menuparent{
+            display: flex;
+            gap: 10px;
+            .sf-sub-indicator{
+                margin-left: 2px;
+
+            }
+        }
+
+    }
+   
+}
