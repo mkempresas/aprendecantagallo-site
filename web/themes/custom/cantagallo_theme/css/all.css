@@ -319,6 +319,9 @@ p {
   padding-left: 20px;
 }
 
+.navbar-expand-lg {
+  margin-top: 3px;
+}
 .navbar-expand-lg .navbar-toggler {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -353,9 +356,16 @@ p {
 .navbar-toggler:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
-}/*# sourceMappingURL=all.css.map */eld--name-field-profes-del-mes .block-views-blocksecciones-block-17 h2, .field--name-field-profes-del-mes .block-views-blocksecciones-block-12 h2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
+}
+
+.navbar-nav li {
+  padding-left: 10px;
+  margin-right: 10px;
+  border-left: solid #3c8833 2px;
+}
+.navbar-nav li:first-of-type {
+  border-left: none;
+}/*# sourceMappingURL=all.css.map */exbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
