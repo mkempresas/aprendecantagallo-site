@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Single+Day&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 @media (max-width: 780px) {
@@ -198,6 +199,20 @@
   .field--name-field-aliados {
     width: 100% !important;
   }
+  .govco-nombre-entidad p {
+    padding-left: 10px;
+  }
+  .lfoot {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .lfoot img {
+    width: 100%;
+    height: auto;
+  }
 }
 .barra-superior-govco {
   background-color: #3366cc;
@@ -336,6 +351,7 @@ p {
   background-color: #3366cc;
   width: 100%;
   margin-top: 20px !important;
+  padding-left: 20px;
 }
 
 .govco-data-front {
@@ -533,6 +549,25 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.navbar-toggler {
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.navbar-toggler:after {
+  content: "Menú";
+  font-size: 0.7rem;
+}
+.navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 body {

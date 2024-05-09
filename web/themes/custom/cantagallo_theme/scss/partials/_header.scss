@@ -16,3 +16,15 @@
 .menu-group{
     display: flex;
 }
+.navbar-toggler{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    &:after{
+        content: 'Menú';
+        font-size: 0.7rem;
+    }
+    &:focus{
+        box-shadow: none;
+    }
+}
